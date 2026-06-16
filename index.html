@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Computer Engineering</title>
+
+  <!-- Favicon: SL initials -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='central' text-anchor='middle' font-family='Georgia%2C serif' font-size='26' font-weight='700' fill='white'%3ESL%3C/text%3E%3C/svg%3E"/>
+
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script>emailjs.init("Qu6OKGNoceyvqL-FT");</script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Shlok<span>Lonkar</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#quickaccess">Links</a></li>
+      <li><a href="#feedback">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-blob blob1"></div>
+    <div class="hero-blob blob2"></div>
+    <div class="hero-inner">
+      <p class="hero-tag reveal">👋 Hello World, I'm</p>
+      <h1 class="hero-name reveal">Shlok <em>Lonkar</em></h1>
+      <p class="hero-role reveal">🎓 Diploma in Computer Engineering &nbsp;·&nbsp; 💻 Developer &nbsp;·&nbsp; 🚀 Builder</p>
+      <p class="hero-desc reveal">I craft clean, purposeful software — from interactive web interfaces to systems programming. I write code that works elegantly and grows with confidence.</p>
+      <div class="hero-btns reveal">
+        <a href="#projects" class="btn-primary">View My Work ✨</a>
+        <a href="#contact" class="btn-outline">Get in Touch →</a>
+      </div>
+      <div class="hero-scroll reveal">
+        <div class="hero-scroll-line"></div>
+        <span>Scroll to explore</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <span class="section-eyebrow reveal">👤 About Me</span>
+    <h2 class="section-title reveal">A little about <em>me</em></h2>
+    <div class="divider reveal"></div>
+    <div class="about-grid">
+      <div class="about-photo-wrap reveal">
+        <div class="photo-frame">
+          <img src="About pic.jpeg" alt="Your Name" class="about-photo"
+               onerror="this.style.display='none'; document.getElementById('photoPlaceholder').style.display='flex'"/>
+          <div class="photo-placeholder" id="photoPlaceholder">
+            <i class="fas fa-user"></i>
+            <p>Replace <code>your-photo.jpg</code><br>with your photo</p>
+          </div>
+        </div>
+        <div class="photo-deco"></div>
+      </div>
+      <div class="about-text reveal">
+        <p>Hi! 👋 I'm a passionate <strong>Computer Engineering student</strong> finishing my Diploma with a love for building practical, well-crafted software. I enjoy working across the stack — from structured C/C++ to interactive web interfaces.</p>
+        <p>I'm driven by curiosity and a genuine love of problem-solving. ⚡ Whether it's a complex algorithm or a polished UI, I care deeply about the quality of what I create.</p>
+        <div class="about-info">
+          <div class="info-item">
+            <span class="info-label">🎓 Education</span>
+            <span class="info-value">Diploma — Computer Engineering</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">📍 Location</span>
+            <span class="info-value">Maharashtra, India</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">🛠️ Focus</span>
+            <span class="info-value">Web Dev &amp; Systems Programming</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">🎮 Interests</span>
+            <span class="info-value">Open Source, Gaming, Building Things</span>
+          </div>
+        </div>
+        <a href="White and Teal Modern Professional Resume.pdf" class="btn-primary" download>Download Resume 📄</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <span class="section-eyebrow reveal">🛠️ Expertise</span>
+    <h2 class="section-title reveal">Skills &amp; <em>Technologies</em></h2>
+    <div class="divider reveal"></div>
+    <div class="skills-grid">
+      <div class="skill-card reveal" style="--sk:#e8470a"><div class="skill-icon"><i class="fab fa-html5"></i></div><h3>HTML5</h3><div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div><span class="skill-pct">90%</span></div>
+      <div class="skill-card reveal" style="--sk:#264de4"><div class="skill-icon"><i class="fab fa-css3-alt"></i></div><h3>CSS3</h3><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div><span class="skill-pct">85%</span></div>
+      <div class="skill-card reveal" style="--sk:#f0db4f"><div class="skill-icon"><i class="fab fa-js"></i></div><h3>JavaScript</h3><div class="skill-bar"><div class="skill-fill" style="--pct:70%"></div></div><span class="skill-pct">70%</span></div>
+      <div class="skill-card reveal" style="--sk:#3572a5"><div class="skill-icon"><i class="fab fa-python"></i></div><h3>Python</h3><div class="skill-bar"><div class="skill-fill" style="--pct:65%"></div></div><span class="skill-pct">65%</span></div>
+      <div class="skill-card reveal" style="--sk:#2563eb"><div class="skill-icon"><span class="text-icon">C</span></div><h3>C Language</h3><div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div><span class="skill-pct">75%</span></div>
+      <div class="skill-card reveal" style="--sk:#6d28d9"><div class="skill-icon"><span class="text-icon">C++</span></div><h3>C++</h3><div class="skill-bar"><div class="skill-fill" style="--pct:65%"></div></div><span class="skill-pct">65%</span></div>
+      <div class="skill-card reveal" style="--sk:#f05032"><div class="skill-icon"><i class="fab fa-git-alt"></i></div><h3>Git &amp; GitHub</h3><div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div><span class="skill-pct">75%</span></div>
+      <div class="skill-card reveal" style="--sk:#00758f"><div class="skill-icon"><i class="fas fa-database"></i></div><h3>SQL / MySQL</h3><div class="skill-bar"><div class="skill-fill" style="--pct:60%"></div></div><span class="skill-pct">60%</span></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <span class="section-eyebrow reveal">💼 Work</span>
+    <h2 class="section-title reveal">Selected <em>Projects</em></h2>
+    <div class="divider reveal"></div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-top">
+          <span class="project-num">01</span>
+          <div class="project-links">
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" title="Live Demo"><i class="fas fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <h3>Project Title One 🌐</h3>
+        <p>What does this project do? What problem does it solve, and what did you learn while building it?</p>
+        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-top">
+          <span class="project-num">02</span>
+          <div class="project-links">
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" title="Live Demo"><i class="fas fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <h3>Project Title Two ⚙️</h3>
+        <p>Describe the tech stack, your role, and the most interesting challenge you solved in this project.</p>
+        <div class="project-tags"><span>C++</span><span>Python</span><span>MySQL</span></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-top">
+          <span class="project-num">03</span>
+          <div class="project-links">
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" title="Live Demo"><i class="fas fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <h3>Project Title Three 🔧</h3>
+        <p>What makes this unique? Highlight the impact, technologies chosen, and what you'd improve now.</p>
+        <div class="project-tags"><span>C</span><span>HTML</span><span>CSS</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK ACCESS -->
+  <section class="quickaccess" id="quickaccess">
+    <span class="section-eyebrow reveal">🔗 Find Me</span>
+    <h2 class="section-title reveal">Quick <em>Links</em></h2>
+    <div class="divider reveal"></div>
+    <div class="qa-strip reveal">
+      <a href="White and Teal Modern Professional Resume.pdf" download class="qa-chip">
+        <div class="qa-chip-icon qa-resume"><i class="fas fa-file-lines"></i></div>
+        <span>Resume</span>
+      </a>
+      <a href="https://github.com/shloklonkar24" target="_blank" class="qa-chip">
+        <div class="qa-chip-icon qa-github"><i class="fab fa-github"></i></div>
+        <span>GitHub</span>
+      </a>
+      <a href="https://www.linkedin.com/in/shlok-lonkar-124a92415/" target="_blank" class="qa-chip">
+        <div class="qa-chip-icon qa-linkedin"><i class="fab fa-linkedin-in"></i></div>
+        <span>LinkedIn</span>
+      </a>
+      <a href="shlok.lonkar24@pcpolytechnic.com" class="qa-chip">
+        <div class="qa-chip-icon qa-email"><i class="fas fa-envelope"></i></div>
+        <span>Email</span>
+      </a>
+      <a href="https://www.instagram.com/shlok_6917/" target="_blank" class="qa-chip">
+        <div class="qa-chip-icon qa-instagram"><i class="fab fa-instagram"></i></div>
+        <span>Instagram</span>
+      </a>
+      <a href="https://twitter.com/yourusername" target="_blank" class="qa-chip">
+        <div class="qa-chip-icon qa-twitter"><i class="fab fa-x-twitter"></i></div>
+        <span>Twitter / X</span>
+      </a>
+    </div>
+  </section>
+
+    <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <span class="section-eyebrow reveal">📬 Contact</span>
+    <h2 class="section-title reveal">Get in <em>Touch</em></h2>
+    <div class="divider reveal"></div>
+    <p class="contact-sub reveal">Have an opportunity, a project idea, or just want to say hi? 👋 I'd love to hear from you!</p>
+    <div class="contact-wrap">
+      <form class="contact-form reveal" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cname">Name</label>
+            <input type="text" id="cname" placeholder="Your full name" required/>
+          </div>
+          <div class="form-group">
+            <label for="cemail">Email</label>
+            <input type="email" id="cemail" placeholder="your@email.com" required/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="cmessage">Message</label>
+          <textarea id="cmessage" rows="6" placeholder="What would you like to discuss?" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width">Send Message 📩</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-left">
+      <p>&copy; Designed &amp; built with ❤️ by <span>Shlok Lonkar</span></p>
+      <p class="footer-sub">Diploma in Computer Engineering · 2025</p>
+      <p class="footer-sub">All rights reserved.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/shloklonkar24" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/shlok-lonkar-124a92415/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="shlok.lonkar24@pcpolytechnic.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </footer>
+
+<!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/917558779117" target="_blank" class="whatsapp-float" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <script>
+
+    // Scroll reveal
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // Navbar
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Hamburger
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+
+    // Skill bars
+    const skillIO = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting)
+          e.target.querySelectorAll('.skill-fill').forEach(b => {
+            b.style.width = getComputedStyle(b).getPropertyValue('--pct') || b.style.getPropertyValue('--pct');
+          });
+      });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('.skill-card').forEach(c => skillIO.observe(c));
+
+    // Contact form
+    // Contact form with EmailJS
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const btn = this.querySelector('button');
+  btn.innerHTML = 'Sending... ⏳'; btn.disabled = true;
+
+  const templateParams = {
+    from_name:  document.getElementById('cname').value,
+    from_email: document.getElementById('cemail').value,
+    message:    document.getElementById('cmessage').value,
+  };
+
+  emailjs.send('service_2asp3t6', 'template_2skax2c', templateParams)
+    .then(() => {
+      btn.innerHTML = '✅ Message Sent!';
+      this.reset();
+      setTimeout(() => { btn.innerHTML = 'Send Message 📩'; btn.disabled = false; }, 3000);
+    })
+    .catch((err) => {
+      console.error('EmailJS error:', err);
+      btn.innerHTML = '❌ Failed — Try Again';
+      btn.disabled = false;
+    });
+});
+
+    // Star rating
+    let ratings = [], currentRating = 0;
+    const stars = document.querySelectorAll('.star');
+    const ratingLabel  = document.getElementById('ratingLabel');
+    const avgScore     = document.getElementById('avgScore');
+    const totalRatings = document.getElementById('totalRatings');
+    const labels = ['','Poor 😕','Fair 🙂','Good 👍','Great 😄','Excellent 🎉'];
+    stars.forEach(star => {
+      star.addEventListener('mouseover', () => highlight(+star.dataset.val));
+      star.addEventListener('mouseout',  () => highlight(currentRating));
+      star.addEventListener('click', () => {
+        currentRating = +star.dataset.val;
+        ratings.push(currentRating);
+        highlight(currentRating);
+        ratingLabel.textContent = labels[currentRating] + ' — Thank you!';
+        const avg = (ratings.reduce((a,b)=>a+b,0)/ratings.length).toFixed(1);
+        avgScore.textContent = avg;
+        totalRatings.textContent = ratings.length + (ratings.length===1?' rating':' ratings');
+      });
+    });
+    function highlight(val) { stars.forEach(s => s.classList.toggle('active', +s.dataset.val <= val)); }
+
+    // Reviews
+    document.getElementById('submitReview').addEventListener('click', () => {
+      const name = document.getElementById('reviewName').value.trim();
+      const text = document.getElementById('reviewText').value.trim();
+      if (!name || !text) { alert('Please fill in both fields.'); return; }
+      const sh = currentRating > 0 ? '★'.repeat(currentRating)+'☆'.repeat(5-currentRating) : '—';
+      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      const now = new Date();
+      const card = document.createElement('div');
+      card.className = 'review-card new-review';
+      card.innerHTML = `
+        <div class="review-header">
+          <div class="reviewer-avatar">${name[0].toUpperCase()}</div>
+          <div class="reviewer-meta">
+            <strong>${name}</strong>
+            <div class="review-stars">${sh}</div>
+          </div>
+          <span class="review-date">${months[now.getMonth()]} ${now.getFullYear()}</span>
+        </div>
+        <p>${text}</p>`;
+      document.getElementById('reviewsContainer').prepend(card);
+      document.getElementById('reviewName').value = '';
+      document.getElementById('reviewText').value = '';
+      currentRating = 0; highlight(0);
+      ratingLabel.textContent = 'Select a rating';
+      setTimeout(() => card.classList.add('visible'), 50);
+    });
+  </script>
+</body>
+</html>
